@@ -1,0 +1,242 @@
+.item-box {
+    width:25%;
+	padding-left:10;
+	padding-right:10;
+	float:left	
+}
+ 
+.item-box-text span:hover {
+	text-decoration:none !important;
+}
+ 
+.item-box-image {
+	width:200px;
+	height:200px;
+	background-color: #cccccc;
+}
+ 
+.item-box-text {
+	/*border-style:solid;
+	border-width:1px;
+	border-color:#b00000;*/
+	padding-left:12px;
+	padding-top:10px;
+	padding-right:12px;
+	padding-bottom:12px;
+	width:200px;	
+	/*color:black;*/
+}
+
+.item-box-text span {
+	color: black;
+}
+ 
+.item-box-title {
+	margin-bottom:7px;	
+}
+
+.getting-started-lesson {
+	padding: 5px;
+	background-color: rgba(0, 0, 0, .2);
+}
+
+
+.getting-started-lesson a div {
+	color:white !important;
+}
+
+.getting-started-lesson a div span {
+	color:white !important;
+}
+
+.main-icon-link {
+	padding: 0px !important; 
+	padding-top: 0px !important;
+	margin-left: 0px;
+	
+}
+
+a:visited {
+	color: #eb6864;
+}
+
+.main-icon-image {
+	height: 40px;
+	width: 40px;
+}
+
+.search-bar-box {
+	width: 300px;
+	align: right;
+	margin-top: 9px;
+	margin-right: 10px;
+}
+
+.carousel-move-button {
+	font-size: 1000% !important;
+	height: 100%;
+	padding-top: 35px;
+}
+
+.article-summary {
+	color: black;
+}
+
+html, body {
+	height: 100%;
+	font-family: serif;
+	color: black;
+}
+
+html {
+	/*position: relative;
+	min-height:100%;*/
+}
+
+* {
+	margin: 0;
+}
+
+.page-wrap {
+	min-height: 100%;
+	margin-bottom: -60px;
+}
+
+.user-name-box {
+	color: green !important;
+}
+
+.page-wrap:after {
+	content: "";
+	display: block;
+}
+
+.site-footer, .page-wrap:after {
+	height: 60px;
+}
+
+.site-footer {
+	margin-bottom: 0px;
+}
+
+.article-container {
+	/*max-width: 940px;*/
+	margin: 10px auto 10px auto;
+}
+
+.article-container div h3 {
+	margin-top: 0px;
+}
+
+.article-container-grid-container {
+	clear: both;
+	margin-top: 10px;
+}
+
+.article-container-grid-container table {
+	/*margin: 0px auto;*/
+}
+
+.article-holder {
+  height: 125px;
+  text-align: justify;
+  border: 10px solid black;
+  font-size: 0.1px; /* IE 9 & 10 don't like font-size: 0; */
+  min-width: 750px;
+}
+.article-holder div {
+  width: 150px;
+  height: 125px;
+  display: inline-block;
+  background: red;
+}
+.article-holder:after {
+  content: '';
+  width: 100%; /* Ensures there are at least 2 lines of text, so justification works */
+  display: inline-block;
+}
+
+.billboard-article {
+	height: 480px;
+	background-size: cover;
+	box-shadow: black 0px 0px 8px 0px inset;
+	background-position: 50% 50%;
+}
+
+.lessons-container {
+	/*display: table;*/
+	margin-left: 0px;
+	margin-right: 0px;
+	background-image: url('../images/cityscape.jpg');
+	background-position: 50%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.bottom-container {
+	margin-bottom: 20px;
+}
+
+.lessons-container-row {
+	display: table-row;
+	color: white !important;
+	text-shadow: 1px 1px 2px BLACK;
+}
+
+.lessons-container-row table {
+	margin-left: auto;
+	margin-right: -35px;
+}
+
+.lessons-container-cell {
+	padding-top: 20px;
+	display: table-cell;
+	vertical-align: top;
+	width: 50%;
+}
+
+.lessons-header {
+	color: white;
+}
+
+.navbar-brand,
+.navbar-nav li a {
+	line-height: 40px;
+	height: 40px;
+	padding-top: 0px;
+}
+
+.search-bar-box {
+	margin-bottom: 0px;
+	margin-top: 6px;
+}
+
+.p-navbar {
+	min-height: 0px !important;
+}
+
+.footer-links {
+	float: right;
+	margin-top:0px;
+}
+
+body {
+	background-color: #FFF;
+}
+
+.col-left {
+	width: 50%;
+	padding-right:10px;
+	vertical-align: top;
+}
+
+.col-right {
+	width: 50%;
+	padding-left: 10px;
+}
+/*span.article-summary > a:link,
+pan.article-summary > a:active,
+pan.article-summary > a:hover,
+pan.article-summary > a:visited {
+    color: black;
+}*/
